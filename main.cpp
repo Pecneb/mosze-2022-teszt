@@ -15,7 +15,7 @@ int main()
         std::cout << "Ertek:" << b[i] << std::endl;
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag = 0;
+    double atlag = 0;
     for ( int i = 1; i <= N_ELEMENTS; i++ )
     {
         atlag += b[i];
